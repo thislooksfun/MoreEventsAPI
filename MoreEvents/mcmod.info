@@ -1,0 +1,17 @@
+[
+{
+  "modid": "moreeventsapi",
+  "name": "More Events API",
+  "description": "Adds more forge events",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["thislooksfun"],
+  "credits": "",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
