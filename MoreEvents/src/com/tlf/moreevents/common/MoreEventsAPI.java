@@ -10,7 +10,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = MoreEventsAPI.MODID, name = MoreEventsAPI.NAME, version = MoreEventsAPI.VERSION, dependencies = "required-after:commandapi")
+@Mod(modid = MoreEventsAPI.MODID, name = MoreEventsAPI.NAME, version = MoreEventsAPI.VERSION)
 public class MoreEventsAPI
 {
 	public static final String MODID = "moreeventsapi";
