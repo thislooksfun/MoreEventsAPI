@@ -1,14 +1,13 @@
 package com.tlf.moreevents.event;
 
 import net.minecraft.block.Block;
-import net.minecraft.entity.item.EntityFallingBlock;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent.Action;
+
 import cpw.mods.fml.common.eventhandler.EventPriority;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
@@ -42,6 +41,7 @@ public class BPEventHandler
 	@SubscribeEvent
 	public void test(BlockAboutToPlaceEvent event)
 	{
+		/*
 		if (!event.world.isRemote) {
 			if (event.world.getBlock(event.x, event.y-1, event.z) == Blocks.air) {
 				event.setCanceled(true);
@@ -50,5 +50,6 @@ public class BPEventHandler
 				event.world.spawnEntityInWorld(fBlock);
 			}
 		}
+		*/
 	}
 }
